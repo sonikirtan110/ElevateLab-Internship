@@ -7,7 +7,7 @@ This repository organizes each daily assignment into its own folder. Click a tas
    - **Notebook:** `Task1_DataPreprocessing.ipynb`
 
 
-2. **[Task 2: Data Visualization and Storytelling](Task2_DataVisualizationandStorytelling/)**
+2. **[Task 2: Data Visualization and Storytelling](Task2_Data_Visualization_and_Storytelling/)**
    - **Image**`pic.png`
 
 4. **Task3: …**

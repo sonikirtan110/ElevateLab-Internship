@@ -200,8 +200,3 @@ CREATE INDEX idx_orders_date      ON orders(order_date);
    ```
    mysql -u your_user -p < task3_queries.sql
    ```
-3. **Capture screenshots** of each result and store in `screenshots/`.
-
----
-
-You now have two ready-to-run `.sql` files for Task 3!

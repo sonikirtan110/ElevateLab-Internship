@@ -10,7 +10,6 @@ This repository organizes each daily assignment into its own folder. Click a tas
 2. **[Task 2: Data Visualization and Storytelling](Task2_Data_Visualization_and_Storytelling/)**
    - **Image**`pic.png`
 
-4. **Task3: …**
-   - **Data file:** `Task3_… .csv`
-   - **Notebook:** `Task3_….ipynb`
-
+4. **[ask3_SQL_for_Data_Analysis](ask3_SQL_for_Data_Analysis)**
+   - `task3_queries.sql`
+   - `schema_and_data. sql`

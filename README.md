@@ -19,7 +19,7 @@ This repository organizes each daily assignment into its own folder. Click a tas
    - `Task4_Sumary. pptx`
 
 5.**[Task5_Exploratory_Data_Analysis(EDA)](Task5_Exploratory_Data_Analysis(EDA))**
-   - `train. csv`
-   - `gender submission. csv`
-   - `task5.ipynb`
+   -  `train. csv`
+   -  `gender submission. csv`
+   -  `task5.ipynb`
 

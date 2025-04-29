@@ -23,3 +23,5 @@ This repository organizes each daily assignment into its own folder. Click a tas
    -  `gender submission. csv`
    -  `task5.ipynb`
 
+ 6.**[Task6_Sales_Trend_Analysis](Task6_Sales_Trend_Analysis)**
+   - `sales_trend. sql`

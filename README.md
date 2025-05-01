@@ -18,10 +18,15 @@ This repository organizes each daily assignment into its own folder. Click a tas
    - `Dashboard_pic. png`
    - `Task4_Sumary. pptx`
 
-5.**[Task5_Exploratory_Data_Analysis(EDA)](Task5_Exploratory_Data_Analysis(EDA))**
+5. **[Task5_Exploratory_Data_Analysis(EDA)](Task5_Exploratory_Data_Analysis(EDA))**
    -  `train. csv`
    -  `gender submission. csv`
    -  `task5.ipynb`
 
- 6.**[Task6_Sales_Trend_Analysis](Task6_Sales_Trend_Analysis)**
+ 6. **[Task6_Sales_Trend_Analysis](Task6_Sales_Trend_Analysis)**
    - `sales_trend. sql`
+     
+ 7. **[task7_sales_summary](task7_sales_summary)**
+    - `sales data . db`
+    - `task7_sa Ies_s ummary. py`
+    - `sales_chart . png`

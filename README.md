@@ -26,7 +26,7 @@ This repository organizes each daily assignment into its own folder. Click a tas
  6. **[Task6_Sales_Trend_Analysis](Task6_Sales_Trend_Analysis)**
    - `sales_trend. sql`
      
- 7. **[task7_sales_summary](task7_sales_summary)**
+ 7. **[Task7_sales_summary](Task7_sales_summary)**
     - `sales data . db`
     - `task7_sa Ies_s ummary. py`
     - `sales_chart . png`

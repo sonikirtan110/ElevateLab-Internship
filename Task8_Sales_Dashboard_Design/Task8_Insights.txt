@@ -1,0 +1,35 @@
+Key Insights from the Sales Dashboard
+  	
+Total Sales and Profit Overview
+Total Sales: $119.99M
+Total Profit: $15.16M
+Total Units Sold: 1.04M
+Cost of Goods Sold: $95.63M
+The overall profit margin is moderate, with significant cost-to-sales ratio, indicating room for operational efficiency.
+
+Top Products by Sales
+Paseo leads with $33.7M in sales (28.08%).
+Followed by VTT ($20.07M) and Velo ($18.8M).
+Carretera is the lowest among listed products at $14.27M (11.89%).
+
+Year-wise Sales Performance
+Significant growth in sales from 2013 to 2014, especially for Paseo and VTT.
+All products showed increased sales in 2014, suggesting a healthy growth trend.
+
+Country-wise Sales
+United States leads with $26.82M (22.35%).
+France, Canada, and Mexico also contribute significantly (each above $20M).
+Balanced global distribution, with opportunities to expand in lower-performing countries.
+
+Discount Brand Sales
+High Discount tier accounts for $42.69M (35.58%) of sales.
+Indicates that discounting is effective for driving volume, but may impact profitability.
+
+Sales by Customer Segment
+Government and Small Business segments dominate:
+Government: $52.27M (43.5%)
+Small Business: $44.17M (36.81%)
+Enterprise lags behind with only 16.29% of sales.
+
+Seasonal Filtering Available
+Dashboard supports filtering by Year, Quarter, Month, and Product, allowing dynamic time-based analysis.

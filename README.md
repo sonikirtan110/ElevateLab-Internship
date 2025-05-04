@@ -30,3 +30,7 @@ This repository organizes each daily assignment into its own folder. Click a tas
     - `sales data . db`
     - `task7_sa Ies_s ummary. py`
     - `sales_chart . png`
+
+ 8. **[Task8_Sales_Dashboard_Design](Task8_Sales_Dashboard_Design)**
+    - `Task8_Sales_Dashboard_Design. png`
+    - `Task8_Insight. txt`

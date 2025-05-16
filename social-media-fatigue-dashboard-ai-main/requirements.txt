@@ -1,0 +1,12 @@
+# requirements.txt
+gunicorn
+flask
+flask-cors
+pandas
+numpy
+scikit-learn==1.4.2
+joblib
+mysql-connector-python
+python-dotenv
+Werkzeug
+psycopg2

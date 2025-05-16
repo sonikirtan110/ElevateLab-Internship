@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Fatigue Predictor</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #4a90e2;
+            --secondary-color: #f39c12;
+            --background-color: #f0f4f8;
+            --text-color: #333;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: var(--primary-color);
+            text-align: center;
+        }
+
+        form label {
+            display: block;
+            margin: 1rem 0 0.5rem;
+            font-weight: 600;
+        }
+
+        input, select, button {
+            width: 100%;
+            padding: 0.75rem;
+            margin-bottom: 1rem;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+
+        select option[value=""] {
+            color: #999;
+        }
+
+        button {
+            background-color: var(--primary-color);
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #357ab7;
+        }
+
+        #result {
+            margin-top: 1rem;
+            padding: 1rem;
+            background-color: #e7f3ff;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Social Media Fatigue Predictor</h1>
+        <form id="prediction-form">
+            <label for="Age">Age:</label>
+            <input type="number" id="Age" name="Age" placeholder="Enter your age" required>
+
+            <label for="SocialMediaTime">Social Media Time (hours):</label>
+            <input type="number" step="0.1" id="SocialMediaTime" name="SocialMediaTime" placeholder="Hours spent on social media" required>
+
+            <label for="ScreenTime">Screen Time (hours):</label>
+            <input type="number" step="0.1" id="ScreenTime" name="ScreenTime" placeholder="Total screen time in hours" required>
+
+            <label for="PrimaryPlatform">Primary Platform:</label>
+            <select id="PrimaryPlatform" name="PrimaryPlatform" required>
+                <option value="" disabled selected>Select Platform</option>
+                <option value="Instagram">Instagram</option>
+                <option value="YouTube">YouTube</option>
+                <option value="TikTok">TikTok</option>
+                <option value="Facebook">Facebook</option>
+                <option value="Twitter">Twitter</option>
+            </select>
+
+            <button type="submit">Predict</button>
+        </form>
+
+        <div id="result"></div>
+
+        <script>
+            document.getElementById('prediction-form').onsubmit = async function (event) {
+                event.preventDefault();
+                const formData = {
+                    Age: document.getElementById('Age').value,
+                    SocialMediaTime: document.getElementById('SocialMediaTime').value,
+                    ScreenTime: document.getElementById('ScreenTime').value,
+                    PrimaryPlatform: document.getElementById('PrimaryPlatform').value
+                };
+
+                try {
+                    const response = await fetch('/predict', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify(formData)
+                    });
+
+                    if (!response.ok) throw new Error('Prediction failed');
+
+                    const result = await response.json();
+                    document.getElementById('result').innerHTML = `<h3>Prediction Result:</h3><pre>${JSON.stringify(result, null, 2)}</pre>`;
+                } catch (error) {
+                    document.getElementById('result').innerHTML = `<p style="color: red;">Error: ${error.message}</p>`;
+                }
+            };
+        </script>
+    </div>
+</body>
+</html>
